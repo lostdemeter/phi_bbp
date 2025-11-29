@@ -40,20 +40,34 @@ python generate_figures.py
 
 where each correction cᵢ = (nᵢ/dᵢ) × φ^(-kᵢ) for some integers.
 
+## Figures
+
+### Convergence Analysis
+![Convergence](figures/fig1_convergence.png)
+
+### Golden Ratio Corrections
+![Corrections](figures/fig2_corrections.png)
+
+### Closed Form Structure
+![Closed Form](figures/fig3_closed_form.png)
+
+### Formula Structure
+![Structure](figures/fig4_structure.png)
+
 ## Citation
 
 If you use this work, please cite:
 
 ```bibtex
-@article{tabor2024phibbp,
+@article{gushurst2025phibbp,
   title={The φ-BBP Formula: A New Class of Spigot Algorithms for π 
          Incorporating the Golden Ratio},
-  author={Tabor, Thorin},
-  year={2024},
-  url={https://github.com/lostdemeter/holographersworkbench}
+  author={Gushurst, Lesley},
+  year={2025},
+  url={https://github.com/lostdemeter/phi_bbp}
 }
 ```
 
 ## License
 
-MIT License - see repository root for details.
+GNU General Public License v3.0 - see [LICENSE](LICENSE) for details.
